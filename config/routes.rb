@@ -6,7 +6,6 @@ Rails.application.routes.draw do
       get :followings
       get :followers
       get :likes
-      get :likeds
     end
   end
   get  "signup", to: "users#new" 
